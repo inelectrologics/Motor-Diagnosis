@@ -1,6 +1,6 @@
 //
 // Copyright by Pat Taweewat, PTMDC2 for Paper II at iEECON 2025: Covering adc,wifi,serial communication on MCU and PC.
-// This code is modified from my previous seminar projects to suite paper MCU platfrom for motor diagnosis and data
+// This code is modified from my previous seminar projects to suit paper MCU platfrom for motor diagnosis and data
 // acquisition.
 // The machine learning part is modified from the example provided by EloquentML library example at
 // https://github.com/eloquentarduino/EloquentTinyML.
