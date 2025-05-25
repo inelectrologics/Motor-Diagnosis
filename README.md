@@ -7,4 +7,5 @@ but I have tested on real signal capture and diagnosis on ESP32-C3 Dual USB only
 In the code, the input feature size for trained model in the experiment is less than 192 but xbuf can have input upto 192 vector size.
 If your model is finalized and has lower number than the initial xbuf then this number can be reduced to save memory. The class is upto 3 classes which is depended on ybuf size.
 If you need more than 3 classes then this buffer should be modified.
-Actually, xbuf and ybuf can be larger but I used those numbers of sizes for test past and backward compatability to work with the EloquentML library which you can check some example at https://github.com/eloquentarduino/EloquentTinyML
+Actually, xbuf and ybuf can be larger but I used those numbers of sizes for test past and backward compatability to work with some examples of the EloquentML library which you can check some examples at https://github.com/eloquentarduino/EloquentTinyML
+If you not need the compatability test then removing will reduce compiled binary size.
