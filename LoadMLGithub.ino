@@ -1,8 +1,11 @@
 //
 // Copyright by Pat Taweewat, This code is a part of MCU-based Motor Diagnosis Platform and experimentation for Paper II, iEECON2025.
 // This is reduced version for testing on TFlite micro model reloading without recompiling via USB virtual serial communication.
-// To be used with main code, put the TFlite micro model into the main loop of the main code.
+// The reason I create this reduced version part of the code is to reduce functionality checking time when do the experimentation without using web server capability.
+// It also reduced compiled time when I want to add more functionality on the ESP32-C3 and other ESP32 boards.
+// To be used with the main code, put the TFlite micro model reloading part into the main loop of the main code.
 // Some parts of the code is used for testing compatability for the EloquentML library, if you not need to recheck that, you can remove it without error.
+// I haven't put comments to explain the code yet as I have full of busy works during uploading this code. So, please come back later, when I have time to put comments if you want to.
 //
 const uint16_t adcbufsize=4096;
 uint16_t adcbuf[adcbufsize],xidx[91];
