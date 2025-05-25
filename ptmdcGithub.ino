@@ -2,9 +2,10 @@
 // Copyright by Pat Taweewat, PTMDC2 for Paper II at iEECON 2025: Covering adc,wifi,serial communication on MCU and PC.
 // This code is modified from my previous seminar projects to suit paper MCU platfrom for motor diagnosis and data
 // acquisition.
-// The machine learning part is modified from the example provided by EloquentML library example at
+// The machine learning part is modified from the example provided by the EloquentML library example at
 // https://github.com/eloquentarduino/EloquentTinyML.
 // Please ensure that memory sizes both flash and RAM is suitable on your ESP32 board as I used ESP32-C3 4MB flash Dual USB board.
+// I am sorry if no detailed comments in the code as I am quite busy. If you need detailed comments, I will put it when I have time so, please be back later.
 //
 #include "esp_system.h"
 #include <WiFi.h>
